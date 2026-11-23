@@ -95,3 +95,10 @@ dotnet build -c Release
 ```
 
 Prebuilt binaries are attached to the [GitHub releases](../../releases) and need the [.NET 9 runtime](https://dotnet.microsoft.com/download/dotnet/9.0).
+
+## License
+
+[MIT](LICENSE). The reference values embedded in `Reference.cs` (the 0x8E response block, handler code
+bytes and SHA-256) are taken from the
+[FC1307A-PSX-DVR](https://github.com/DanielFergisz/FC1307A-PSX-DVR) firmware release; the firmware
+itself is not included.
