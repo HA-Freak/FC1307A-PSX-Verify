@@ -59,8 +59,7 @@ adapter. In that case the tool reports "CANNOT BE TESTED", not a firmware failur
 | Bridge | USB ID | `0x8E` |
 |---|---|---|
 | Innostor IS611 (many USB 3.0 IDE/SATA combo adapters, often with a backup button) | `VID_1F75&PID_0611` | **Blocked** (tested) |
-| JMicron JM20337, e.g. StarTech USB2SATAIDE, StarTech UNIDOCK2U | `VID_152D&PID_2338` | **Works** (tested), through `--transport jmicron` |
-| Delock Converter USB 2.0 to SATA / IDE (JMicron) | – | **Works** (tested), through `--transport jmicron` |
+| JMicron JM20337, e.g. StarTech USB2SATAIDE, StarTech UNIDOCK2U, Delock Converter USB 2.0 to SATA / IDE | `VID_152D&PID_2338` | **Works** (tested), through `--transport jmicron` |
 | IDE on a motherboard | – | The most reliable option |
 
 You can find a bridge's USB ID in Device Manager under Details → Hardware IDs.
